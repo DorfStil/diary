@@ -1,0 +1,14 @@
+.textarea {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #323232;
+  width: 100%;
+}
+
+.invalid {
+  border-color: red;
+  background-color: brown;
+}
