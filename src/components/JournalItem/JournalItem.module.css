@@ -1,0 +1,31 @@
+.journal-item {
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.03);
+  color: #fff;
+  padding: 20px;
+}
+
+.journal-item__title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.journal-item__content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.journal-item__date {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.journal-item__text {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
